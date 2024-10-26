@@ -1,1 +1,3 @@
-print(books/frankenstein.txt)
+with open('books/frankenstein.txt','r') as file:
+        Books = file.read()
+        print(Books)
