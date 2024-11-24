@@ -6,6 +6,7 @@ with open('books/frankenstein.txt','r') as file:
         CharCount = Books;
         LowChar = CharCount.lower(); 
         Letters = count_letters(LowChar)
+        print(Letters)
         
         
 def count_letters(s):
