@@ -1,4 +1,4 @@
-import count_letters
+from count_letters import count_L
 with open('books/frankenstein.txt','r') as file:
         Books = file.read();
         #print(Books);
@@ -6,5 +6,5 @@ with open('books/frankenstein.txt','r') as file:
         print(len(words));
         CharCount = Books;
         LowChar = CharCount.lower(); 
-        Letters = count_letters(LowChar)
+        Letters = count_L(LowChar);
         print(Letters)

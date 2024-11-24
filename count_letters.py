@@ -1,4 +1,4 @@
-def count_letters(s):
+def count_L(s):
         letter_counts = {}
         for char in s:
                 if char in letter_counts:
